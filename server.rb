@@ -2,6 +2,7 @@ require 'sinatra'
 require 'json'
 require 'coffee-script'
 require 'sass/plugin/rack'
+require 'beautiful-css'
 
 class App < Sinatra::Base
 
@@ -14,6 +15,18 @@ class App < Sinatra::Base
 
   get '/' do
     File.read(File.join('public', 'index.html'))
+  end
+
+  post '/' do
+    begin
+      BeautifulCss::Engine.new(params[:css]).render
+    rescue
+      nil
+    end
+  end
+
+  get '/application.js' do
+    coffee :application
   end
 
 end
