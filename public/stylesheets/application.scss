@@ -1,64 +1,17 @@
-
-.content:before,
-.content:after
-{ -moz-box-shadow:0 6px 12px rgba(0, 0, 0, 0.3) }
-
-.content:before
-{ -moz-transform:skew(-5deg) rotate(-5deg) }
-
-.content:after
-{ -moz-transform:skew(5deg) rotate(5deg) }
-
-.content:before
-{ -ms-transform:skew(-5deg) rotate(-5deg) }
-
-.content:after
-{ -ms-transform:skew(5deg) rotate(5deg) }
-
-.content:before
-{ -o-transform:skew(-5deg) rotate(-5deg) }
-
-.content:after
-{ -o-transform:skew(5deg) rotate(5deg) }
-
-.content:before,
-.content:after
-{ -webkit-box-shadow:0 6px 12px rgba(0, 0, 0, 0.3) }
-
-.content:before
-{ -webkit-transform:skew(-5deg) rotate(-5deg) }
-
-.content:after
-{ -webkit-transform:skew(5deg) rotate(5deg) }
-
 .CodeMirror
 { background-color:#EEE }
 
 .content
 { background-color:#ffb }
 
-.content:before,
-.content:after
-{ background:transparent }
+p:hover
+{ background-color:rgba(0,0,0,0.1) }
 
 html
-{ background:url(data }
-
-html
-{ base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAGUlEQVQIW2NkYGCQBGKsgBEq+Ryb7KCTBABK3AYhZzBkvgAAAABJRU5ErkJggg==):}
-
-.content:before,
-.content:after
-{ bottom:12px }
+{ background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAGUlEQVQIW2NkYGCQBGKsgBEq+Ryb7KCTBABK3AYhZzBkvgAAAABJRU5ErkJggg==) }
 
 .content,
-.content:before,
-.content:after
 { box-shadow:0 6px 12px rgba(0, 0, 0, 0.3) }
-
-.content:before,
-.content:after
-{ content:' ' }
 
 #dirty
 { float:left }
@@ -66,50 +19,36 @@ html
 #clean
 { float:right }
 
-.content:before,
-.content:after
-{ height:10px }
+h1
+{ font-family: 'Jacques Francois Shadow', cursive }
 
-#dirty,
-#clean,
+body
+{ font-family: 'Lora', serif }
+
+h1
+{ font-size:3em }
+
 .content
-{ height:40em }
-
-.content:before
-{ left:12px }
-
-.content:after
-{ left:auto }
+{ height:42em }
 
 #dirty,
 #clean
 { margin:1em }
 
+p
+{ margin:2em }
+
+h1
+{ padding-bottom:0.5em }
+
 .content
 { margin:5em auto }
 
 .content
-{ padding:2em }
+{ padding:0 2em 2em 2em }
 
-.content:before,
-.content:after
-{ position:absolute }
-
-.content
-{ position:relative }
-
-.content:after
-{ right:12px }
-
-.content:before
-{ transform:skew(-5deg) rotate(-5deg) }
-
-.content:after
-{ transform:skew(5deg) rotate(5deg) }
-
-.content:before,
-.content:after
-{ width:40% }
+h1
+{ -webkit-transform: rotate(-5deg) }
 
 #dirty,
 #clean
@@ -118,6 +57,5 @@ html
 .content
 { width:60em }
 
-.content:before,
-.content:after
-{ z-index:-1 }
+a
+{ z-index:100 }

@@ -1,49 +1,61 @@
-html {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAGUlEQVQIW2NkYGCQBGKsgBEq+Ryb7KCTBABK3AYhZzBkvgAAAABJRU5ErkJggg==); }
-
 .CodeMirror {
   background-color: #EEE; }
 
-#clean {
-  float: right; }
+.content {
+  background-color: #ffb; }
+
+p:hover {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+html {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAGUlEQVQIW2NkYGCQBGKsgBEq+Ryb7KCTBABK3AYhZzBkvgAAAABJRU5ErkJggg==); }
+
+.content {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); }
 
 #dirty {
   float: left; }
 
-#dirty,
 #clean {
-  height: 40em; }
+  float: right; }
+
+h1 {
+  font-family: 'Jacques Francois Shadow', cursive; }
+
+body {
+  font-family: 'Lora', serif; }
+
+h1 {
+  font-size: 3em; }
+
+.content {
+  height: 42em; }
 
 #dirty,
 #clean {
   margin: 1em; }
+
+p {
+  margin: 2em; }
+
+h1 {
+  padding-bottom: 0.5em; }
+
+.content {
+  margin: 5em auto; }
+
+.content {
+  padding: 0 2em 2em 2em; }
+
+h1 {
+  -webkit-transform: rotate(-5deg); }
 
 #dirty,
 #clean {
   width: 45%; }
 
 .content {
-  background-color: #ffb;
-  height: 40em;
-  width: 60em;
-  margin: 5em auto;
-  padding: 2em;
-  position: relative;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); }
+  width: 60em; }
 
-.content:before, .content:after {
-  position: absolute;
-  width: 40%;
-  height: 10px;
-  content: ' ';
-  left: 12px;
-  bottom: 12px;
-  background: transparent;
-  transform: skew(-5deg) rotate(-5deg);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-  z-index: -1; }
-
-.content:after {
-  left: auto;
-  right: 12px;
-  transform: skew(5deg) rotate(5deg); }
+a {
+  z-index: 100; }
