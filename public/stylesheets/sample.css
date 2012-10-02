@@ -1,20 +1,19 @@
-.notice {
-  color: green; }
+.class1 {
+  color: red; }
 
-.notice {
+.class1 {
   color: green;
   padding: 2px;
-  background-color: red;
-  display: table; }
+  background-color: red; }
 
-.error {
+.class2 {
   width: 450px;
   border: 2px solid red;
   padding: 7px;
   padding-bottom: 0;
   margin-bottom: 20px;
   background-color: #050505; }
-  .error h2 {
+  .class2 h2 {
     text-align: left;
     font-weight: bold;
     padding: 5px 5px 5px 15px;
@@ -23,6 +22,6 @@
     margin-bottom: 0px;
     background-color: #c00;
     color: #fff; }
-  .error ul li {
+  .class2 ul li {
     font-size: 12px;
     list-style: square; }
