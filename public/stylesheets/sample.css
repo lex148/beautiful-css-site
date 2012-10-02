@@ -3,25 +3,13 @@
 
 .class1 {
   color: green;
-  padding: 2px;
+  padding: 2em;
   background-color: red; }
 
 .class2 {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #050505; }
-  .class2 h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0px;
-    background-color: #c00;
-    color: #fff; }
-  .class2 ul li {
-    font-size: 12px;
-    list-style: square; }
+  color: green;
+  padding: 10em; }
+  .class2 h1 {
+    background-color: blue; }
+  .class2 h1 {
+    background-color: red; }

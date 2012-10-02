@@ -1,29 +1,14 @@
-
 .class1 {  color: red; }
 
 .class1 {
   color: green;
-  padding: 2px;
+  padding: 2em;
   background-color: red;
 }
 
 .class2 {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #050505;
-  h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0px;
-    background-color: #c00;
-    color: #fff; }
-  ul li {
-    font-size: 12px;
-    list-style: square; } }
-
+  color: green;
+  h1 { background-color:blue }
+  h1 { background-color:red }
+  padding: 10em
+}
