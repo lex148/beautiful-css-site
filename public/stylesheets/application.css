@@ -1,3 +1,9 @@
+html {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAGUlEQVQIW2NkYGCQBGKsgBEq+Ryb7KCTBABK3AYhZzBkvgAAAABJRU5ErkJggg==); }
+
+.CodeMirror {
+  background-color: #EEE; }
+
 #clean {
   float: right; }
 
@@ -15,3 +21,29 @@
 #dirty,
 #clean {
   width: 45%; }
+
+.content {
+  background-color: #ffb;
+  height: 40em;
+  width: 60em;
+  margin: 5em auto;
+  padding: 2em;
+  position: relative;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); }
+
+.content:before, .content:after {
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  content: ' ';
+  left: 12px;
+  bottom: 12px;
+  background: transparent;
+  transform: skew(-5deg) rotate(-5deg);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  z-index: -1; }
+
+.content:after {
+  left: auto;
+  right: 12px;
+  transform: skew(5deg) rotate(5deg); }
