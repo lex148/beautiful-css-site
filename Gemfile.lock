@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    beautiful-css (0.0.9)
+    beautiful-css (0.0.10)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
